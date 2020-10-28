@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="fooSb.service.impl.FooLocalServiceImpl" id="fooSb.service.FooLocalService" />
+	<bean class="fooSb.service.impl.FooServiceImpl" id="fooSb.service.FooService" />
+	<bean class="fooSb.service.persistence.impl.FooPersistenceImpl" id="fooSb.service.persistence.FooPersistence" parent="basePersistence" />
+	<bean class="fooSb.service.impl.ProjetLocalServiceImpl" id="fooSb.service.ProjetLocalService" />
+	<bean class="fooSb.service.impl.ProjetServiceImpl" id="fooSb.service.ProjetService" />
+	<bean class="fooSb.service.persistence.impl.ProjetPersistenceImpl" id="fooSb.service.persistence.ProjetPersistence" parent="basePersistence" />
+</beans>

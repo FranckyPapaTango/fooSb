@@ -1,0 +1,9 @@
+Bundle-Name: fooSb-api
+Bundle-SymbolicName: fooSb.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	fooSb.exception,\
+	fooSb.model,\
+	fooSb.service,\
+	fooSb.service.persistence
+-includeresource: META-INF/service.xml=../fooSb-service/service.xml

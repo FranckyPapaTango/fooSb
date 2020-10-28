@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="fooSb.model.Foo">
+		<field name="uuid" type="String" />
+		<field name="fooId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="town" type="String" />
+		<field name="isSingle" type="boolean" />
+		<field name="age" type="int" />
+		<field name="birthDay" type="Date" />
+		<field name="firstandLastName" type="String" />
+	</model>
+	<model name="fooSb.model.Projet">
+		<field name="uuid" type="String" />
+		<field name="projetId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="town" type="String" />
+		<field name="isSingle" type="boolean" />
+		<field name="age" type="int" />
+		<field name="birthDay" type="Date" />
+		<field name="firstandLastName" type="String" />
+	</model>
+</model-hints>
